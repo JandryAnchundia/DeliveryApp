@@ -30,7 +30,7 @@
         <div class="formulario__grid">
             <div class="formulario__contenido">
 
-                <h2>Encuentra y pide comida de tu restaurante favorito</h2>
+                <h2 class="formulario__heading" >Encuentra y pide comida de tu restaurante favorito</h2>
 
                 <form class="formulario__buscar">
                     <div class="formulario__campo">
@@ -50,11 +50,445 @@
                 </form>
             </div>
 
-            <div class="formulario__imagen">
-                <img src="build/img/dibujo_repartidor.svg" alt="imagen repartidor">
+            <div class="formulario__imagen-contenedor">
+                <img class="formulario__imagen" src="build/img/dibujo_repartidor.svg" alt="imagen repartidor">
             </div>
         </div>
     </section>
+
+    <section class="pasos">
+        <img class="pasos__wave" src="build/img/wave.svg" alt="imagen wave">
+
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">¿Como funciona? <span class="pasos__heading--descripcion">Tan facil como 1, 2, 3</span></h2>
+
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_1.png" alt="imagen paso app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_2.png" alt="imagen paso app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_3.png" alt="imagen paso app">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contenedor testimoniales">
+        <h2 class="testimoniales__heading">Testimoniales</h2>
+
+        
+        <div class="testimoniales__grid">
+
+            <div class="testimonial">
+
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial1.jpg" alt="testimonial">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Juan Perez</p>
+                        <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="imagen estrellas">
+
+                    </div>
+
+
+                </header> 
+
+
+                <blockquote class="testimonial__texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, tempore. Beatae omnis accusamus vel cumque odio totam.</p>
+                </blockquote>
+
+            </div> <!-- Aqui finaliza este bloque  -->
+
+
+            <div class="testimonial">
+
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial2.jpg" alt="testimonial">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Sinatra Frank</p>
+                        <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="imagen estrellas">
+
+                    </div>
+
+
+                </header> 
+
+
+                <blockquote class="testimonial__texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </blockquote>
+
+            </div> <!-- Aqui finaliza este bloque  -->
+
+
+
+            <div class="testimonial">
+
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial3.jpg" alt="testimonial">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Jose Hernandez</p>
+                        <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="imagen estrellas">
+
+                    </div>
+
+
+                </header> 
+
+
+                <blockquote class="testimonial__texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </blockquote>
+
+            </div> <!-- Aqui finaliza este bloque  -->
+
+
+
+            <div class="testimonial">
+
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial4.jpg" alt="testimonial">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Rosio Rodriguez</p>
+                        <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="imagen estrellas">
+
+                    </div>
+
+
+                </header> 
+
+
+                <blockquote class="testimonial__texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </blockquote>
+
+            </div> <!-- Aqui finaliza este bloque  -->
+
+
+
+            <div class="testimonial">
+
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial5.jpg" alt="testimonial">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Itzel  Cruz</p>
+                        <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="imagen estrellas">
+
+                    </div>
+
+
+                </header> 
+
+
+                <blockquote class="testimonial__texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, tempore. Beatae omnis accusamus vel cumque odio totam. Hic rem, possimus quas aliquam provident tempora, id voluptatem omnis, laboriosam molestias ab.</p>
+                </blockquote>
+
+            </div> <!-- Aqui finaliza este bloque  -->
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <main class="favoritos">
+        <h2 class="favoritos__heading">Restaurantes Favoritos</h2>
+
+
+        <div class="favoritos__grid contenedor">
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+
+            <div class="favorito">
+
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/logo_ensaladas.png" alt="logo restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion restaurant">
+                        <h3 class="favorito__nombre">Green Ensalada</h3>
+
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sunt fugit? Itaque magnam vero praesentium laboriosam sequi odio provident, architecto consequatur rem aut impedit laudantium doloribus consequuntur voluptas at perspiciatis?</p>
+                    </div>
+                </div>
+            </div>  <!-- Favorito -->
+
+        </div>
+
+    </main>
+
+
+    <section class="repartidores">
+
+        <h2 class="repartidores__heading">Gana dinero con APP comida</h2>
+
+        <div class="repartidores__grid contenedor">
+            <div class="respartidores__imagen">
+                <img src="build/img/repartidor.jpg" alt="imagen repartidor">
+
+            </div>
+
+            <div class="repartidores__contenido">
+                <p class="repartidores__texto"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque non tempore repellendus nemo a, magni quidem praesentium corrupti ullam assumenda accusamus harum necessitatibus? Aspernatur ullam earum vel officia recusandae!</p>
+                <p class="repartidores__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatum minus excepturi recusandae eum eveniet! Iure doloribus cum modi incidunt nihil minima, illo optio praesentium nesciunt eveniet accusamus sit delectus!</p>
+
+                <a href="#" class="repartidores__enlace"> Mas informacion</a>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class="descargar">
+
+        <div class="descargar__grid contenedor">
+            <div class="descargar__imagen">
+                <img src="build/img/app.png" alt="imagen app">
+            </div>
+
+
+            <div class="tiendas">
+                <h3 class="tiendas__heading">Descarga la App</h3>
+                <p class="tiendas__texto">Disponible para android y IOS </p>
+
+
+                <div class="tiendas__grid">
+                    <a href="#" class="tiendas__enlace">
+                        <img src="build/img/tienda-apple.svg" alt="Tienda Aple">
+                    </a>
+    
+                    <a href="#" class="tiendas__enlace">
+                        <img src="build/img/tienda-android.svg" alt="Tienda Android">
+                    </a>
+                </div>
+            </div>
+
+        
+
+
+        </div>
+
+    </section>
+
+
+   <footer class="footer">
+        <div class="footer__grid contenedor">
+            <div class="footer__widget">
+                <h3 class="footer__heading">Nosotros</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam voluptates dignissimos iure delectus hic dolore perferendis adipisci temporibus ducimus nulla illo repellat tempora tempore corporis provident, maiores dolores animi.</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Navegacion</h3>
+
+                <nav class="footer__nav">
+                    <a href="#" class="footer__link">Enlace 1</a>
+                    <a href="#" class="footer__link">Enlace 2</a>
+                    <a href="#" class="footer__link">Enlace 3</a>
+                    <a href="#" class="footer__link">Enlace 4</a>
+                    <a href="#" class="footer__link">Enlace 5</a>
+                    <a href="#" class="footer__link">Enlace 6</a>
+                
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Contacto</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam voluptates dignissimos iure delectus hic dolore perferendis adipisci temporibus ducimus nulla illo repellat tempora tempore corporis provident, maiores dolores animi.</p>
+            </div>
+            
+        </div>
+
+
+        <p class="footer__copyright">
+            App Comida. Todos los derechos Reservados
+        </p>
+
+   </footer>
+
 
 
     
